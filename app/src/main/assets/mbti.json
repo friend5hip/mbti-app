@@ -1,0 +1,98 @@
+{
+  "INFP": {
+    "특징": "내향적, 직관적, 감정적, 인식적",
+    "최고의 궁합": ["ENFJ", "ENTJ"],
+    "좋은 궁합": ["INFP", "ENFP", "INFJ", "INTJ", "INTP", "ENTP"],
+    "최악의 궁합": ["ISFP", "ESFP", "ISTP", "ESTP", "ISFJ", "ESFJ", "ISTJ", "ESTJ"]
+  },
+  "ENFP": {
+    "특징": "외향적, 직관적, 감정적, 인식적",
+    "최고의 궁합": ["INFJ", "INTJ"],
+    "좋은 궁합": ["INFP", "ENFP", "ENFJ", "ENTJ", "INTP", "ENTP"],
+    "최악의 궁합": ["ISFP", "ESFP", "ISTP", "ESTP", "ISFJ", "ESFJ", "ISTJ", "ESTJ"]
+  },
+  "INFJ": {
+    "특징": "내향적, 직관적, 감정적, 판단적",
+    "최고의 궁합": ["ENFP", "ENTP"],
+    "좋은 궁합": ["INFP", "INFJ", "ENFJ", "INTJ", "ENTJ", "INTP"],
+    "최악의 궁합": ["ISFP", "ESFP", "ISTP", "ESTP", "ISFJ", "ESFJ", "ISTJ", "ESTJ"]
+  },
+  "ENFJ": {
+    "특징": "외향적, 직관적, 감정적, 판단적",
+    "최고의 궁합": ["INFP", "ISFP"],
+    "좋은 궁합": ["ENFP", "INFJ", "ENFJ", "INTJ", "ENTJ", "INTP", "ENTP"],
+    "최악의 궁합": ["ESFP", "ISTP", "ESTP", "ISFJ", "ESFJ", "ISTJ", "ESTJ"]
+  },
+  "INTJ": {
+    "특징": "내향적, 직관적, 사고적, 판단적",
+    "최고의 궁합": ["ENFP", "ENTP"],
+    "좋은 궁합": ["INFP", "INFJ", "ENFJ", "INTJ", "ENTJ", "INTP", "ESTP", "ESFP"],
+    "최악의 궁합": ["ISFJ", "ISTJ", "ESFJ", "ESTJ", "ISFP", "ISTP"]
+  },
+  "ENTJ": {
+    "특징": "외향적, 직관적, 사고적, 판단적",
+    "최고의 궁합": ["INFP", "INTP"],
+    "좋은 궁합": ["ENFP", "INFJ", "ENFJ", "INTJ", "ENTJ", "ENTP"],
+    "최악의 궁합": ["ISFJ", "ESFJ", "ISTJ", "ESTJ", "ESTP"]
+  },
+  "INTP": {
+    "특징": "내향적, 직관적, 사고적, 인식적",
+    "최고의 궁합": ["ENTJ", "ESTJ"],
+    "좋은 궁합": ["INFP", "ENFP", "INFJ", "ENFJ", "INTJ", "INTP", "ENTP"],
+    "최악의 궁합": ["ISFJ", "ISTJ", "ISFP", "ESFP", "ISTP", "ESTP"]
+  },
+  "ENTP": {
+    "특징": "외향적, 직관적, 사고적, 인식적",
+    "최고의 궁합": ["INFJ", "INTJ"],
+    "좋은 궁합": ["INFP", "ENFP", "ENFJ", "ENTJ", "INTP", "ENTP"],
+    "최악의 궁합": ["ESFJ", "ESTJ", "ISFP", "ESFP", "ISTP", "ESTP"]
+  },
+  "ISFP": {
+    "특징": "내향적, 감각적, 감정적, 인식적",
+    "최고의 궁합": ["ESFJ", "ESTJ", "ESTP"],
+    "좋은 궁합": ["ESFP", "ISTJ", "ISFJ"],
+    "최악의 궁합": ["INFP", "ENFP", "INTP", "INFJ", "INTJ", "ENTP"]
+  },
+  "ESFP": {
+    "특징": "외향적, 감각적, 감정적, 인식적",
+    "최고의 궁합": ["ISFJ", "ISTJ"],
+    "좋은 궁합": ["ESFJ", "ESTJ", "ISFP", "ISTP"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ISTP": {
+    "특징": "내향적, 감각적, 사고적, 인식적",
+    "최고의 궁합": ["ESFJ", "ESTJ"],
+    "좋은 궁합": ["ISFJ", "ISTJ", "ESFP", "ESTP"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ESTP": {
+    "특징": "외향적, 감각적, 사고적, 인식적",
+    "최고의 궁합": ["ISFJ", "ISTJ"],
+    "좋은 궁합": ["ESFJ", "ESTJ", "ISFP", "ISTP"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ISFJ": {
+    "특징": "내향적, 감각적, 감정적, 판단적",
+    "최고의 궁합": ["ESFP", "ESTP"],
+    "좋은 궁합": ["ISFJ", "ESFJ", "ISTJ", "ESTJ"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ESFJ": {
+    "특징": "외향적, 감각적, 감정적, 판단적",
+    "최고의 궁합": ["ISFP", "ISTP"],
+    "좋은 궁합": ["ISFJ", "ESFJ", "ISTJ", "ESTJ"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ISTJ": {
+    "특징": "내향적, 감각적, 사고적, 판단적",
+    "최고의 궁합": ["ESFP", "ESTP"],
+    "좋은 궁합": ["ISFJ", "ESFJ", "ISTJ", "ESTJ"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  },
+  "ESTJ": {
+    "특징": "외향적, 감각적, 사고적, 판단적",
+    "최고의 궁합": ["ISFP", "ISTP"],
+    "좋은 궁합": ["ISFJ", "ESFJ", "ISTJ", "ESTJ"],
+    "최악의 궁합": ["INFP", "ENFP", "INFJ", "ENFJ"]
+  }
+}
