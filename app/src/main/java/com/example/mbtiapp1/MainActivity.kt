@@ -83,15 +83,15 @@ class MainActivity : AppCompatActivity() {
             // CardView 표시
 //            findViewById<CardView>(R.id.cardViewResult).visibility = View.VISIBLE
 
+            // 궁합 메시지 표시
+            val detailedMessage = getDetailedCompatibilityMessage(compatData, myMbti, friendMbti)
+            findViewById<TextView>(R.id.textViewResult).text = detailedMessage
+
             // 이미지 업데이트
             updateImages(myMbti, friendMbti)
 
             // MBTI 타입과 성격 이름 표시
             updateTypeInfo(myMbti, friendMbti, mbtiData)
-
-            // 궁합 메시지 표시
-            val detailedMessage = getDetailedCompatibilityMessage(compatData, myMbti, friendMbti)
-            findViewById<TextView>(R.id.textViewResult).text = detailedMessage
 
             // 궁합 목록 표시
             updateCompatibilityLists(myMbtiInfo)
@@ -165,13 +165,7 @@ class MainActivity : AppCompatActivity() {
             "${mbtiInfo.getJSONArray("최악의 궁합").join()}"
     }
 
-    private fun containsMbti(jsonArray: JSONArray, mbti: String): Boolean {
-        for (i in 0 until jsonArray.length()) {
-            if (jsonArray.getString(i) == mbti) return true
-        }
-        return false
-    }
-
+    // MBTI 리스트를 ,를 사용해 join
     private fun JSONArray.join(): String {
         val result = StringBuilder()
         for (i in 0 until length()) {
