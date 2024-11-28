@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">MBTI 궁합</string>
+
+    <!-- MBTI 목록 -->
+    <string-array name="mbti_array">
+        <item>INFP</item>
+        <item>ENFP</item>
+        <item>INFJ</item>
+        <item>ENFJ</item>
+        <item>INTJ</item>
+        <item>ENTJ</item>
+        <item>INTP</item>
+        <item>ENTP</item>
+        <item>ISFP</item>
+        <item>ESFP</item>
+        <item>ISTP</item>
+        <item>ESTP</item>
+        <item>ISFJ</item>
+        <item>ESFJ</item>
+        <item>ISTJ</item>
+        <item>ESTJ</item>
+    </string-array>
 </resources>
